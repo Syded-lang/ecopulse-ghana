@@ -1,4 +1,3 @@
-<!-- eslint-disable-next-line vue/multi-word-component-names -->
 <template>
   <div>
     <!-- Hero Section -->
@@ -13,7 +12,7 @@
           annually through community-driven recycling and economic incentives.
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
-          <button class="bg-white text-eco-500 px-8 py-4 rounded-lg font-bold text-lg hover:bg-eco-50 transition-colors">
+          <button class="bg-white text-eco-500 px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-50 transition-colors">
             Start Recycling Today
           </button>
           <button class="border-2 border-white text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-white hover:text-eco-500 transition-colors">
@@ -44,9 +43,9 @@
     </section>
 
     <!-- How It Works -->
-    <section class="section-padding bg-gray-50">
+    <section class="section-padding bg-white">
       <div class="max-w-7xl mx-auto">
-        <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-900">
+        <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-600">
           How EcoPulse Works
         </h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -84,7 +83,7 @@
         <p class="text-xl mb-8 text-eco-100">
           Join the recycling revolution and start earning money while protecting Ghana's environment.
         </p>
-        <button class="bg-white text-eco-500 px-8 py-4 rounded-lg font-bold text-lg hover:bg-eco-50 transition-colors">
+        <button class="bg-white text-eco-500 px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-50 transition-colors">
           Join EcoPulse Today
         </button>
         <div class="mt-8">
@@ -106,7 +105,7 @@ async function callApi() {
   try {
     const res = await api.get('/hello');
     apiMessage.value = res.data.message;
-  } catch (err) {
+  } catch {
     apiMessage.value = 'Failed to connect to backend.';
   }
 }

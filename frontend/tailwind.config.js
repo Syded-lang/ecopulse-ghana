@@ -1,5 +1,5 @@
 import forms from '@tailwindcss/forms';
-import { gray } from '@tailwindcss/colors';
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -9,7 +9,6 @@ export default {
   theme: {
     extend: {
       colors: {
-        gray,
         'eco': {
           50: '#f0fdf4',
           100: '#dcfce7',

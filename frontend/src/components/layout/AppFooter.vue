@@ -10,11 +10,11 @@
             </div>
             <span class="text-xl font-bold">EcoPulse Ghana</span>
           </div>
-          <p class="text-gray-400 mb-4 max-w-md">
+          <p class="text-gray-600 mb-4 max-w-md">
             Empowering communities across Ghana to transform waste into wealth through
             innovative recycling solutions and economic incentives.
           </p>
-          <p class="text-sm text-gray-500">
+          <p class="text-sm text-white0">
             © 2025 EcoPulse Ghana. Recycle Right, Earn Rewards.
           </p>
         </div>
@@ -22,7 +22,7 @@
         <!-- Quick Links -->
         <div>
           <h3 class="font-semibold mb-4">Quick Links</h3>
-          <ul class="space-y-2 text-gray-400">
+          <ul class="space-y-2 text-gray-600">
             <li><a href="#" class="hover:text-white transition-colors">About Us</a></li>
             <li><a href="#" class="hover:text-white transition-colors">How It Works</a></li>
             <li><a href="#" class="hover:text-white transition-colors">For Vendors</a></li>
@@ -33,7 +33,7 @@
         <!-- Contact -->
         <div>
           <h3 class="font-semibold mb-4">Contact</h3>
-          <ul class="space-y-2 text-gray-400">
+          <ul class="space-y-2 text-gray-600">
             <li>Accra, Ghana</li>
             <li>+233 XX XXX XXXX</li>
             <li>hello@ecopulse.gh</li>
