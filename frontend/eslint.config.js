@@ -21,4 +21,14 @@ export default defineConfig([
 
   js.configs.recommended,
   ...pluginVue.configs['flat/essential'],
+  
+  {
+    name: 'app/vue-rules',
+    files: ['**/*.vue'],
+    rules: {
+      'vue/multi-word-component-names': ['error', {
+        ignores: ['Home', 'About', 'Login']
+      }]
+    }
+  }
 ])
