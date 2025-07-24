@@ -106,7 +106,7 @@ async function callApi() {
   try {
     const res = await api.get('/hello');
     apiMessage.value = res.data.message;
-  } catch (err) {
+  } catch {
     apiMessage.value = 'Failed to connect to backend.';
   }
 }
